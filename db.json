@@ -1,3 +1,172 @@
 {
-  "student": []
+  "admin": [
+    {
+      "username": "hello123",
+      "password": "1234",
+      "under_student_id": [{ "id": "hi123" }, { "id": "hi1235" }],
+      "under_teacher_id": [{ "id": "hi123" }, { "id": "hi1235" }]
+    }
+  ],
+  "student": [
+    {
+      "id": "hi123564",
+      "first_name": "Forhadul",
+      "last_name": "Forhadul",
+      "phone": "+8801930631910",
+      "email": "mdforhadul44@gmail.com",
+      "address": "Chattrogram,Bangladesh",
+      "password": "1234",
+      "attendence": [{ "date": "10/12/2022", "is_present": true }],
+      "payments": [
+        {
+          "month": "January",
+          "date": "10/12/2022",
+          "is_payment": true,
+          "status": "paid"
+        }
+      ]
+    }
+  ],
+  "teacher": [
+    {
+      "id": "hi123564",
+      "first_name": "Forhadul",
+      "last_name": "Forhadul",
+      "phone": "+8801930631910",
+      "email": "mdforhadul44@gmail.com",
+      "address": "Chattrogram,Bangladesh",
+      "password": "1234",
+      "payments": [
+        {
+          "month": "January",
+          "date": "10/12/2022",
+          "is_payment": true,
+          "status": "paid"
+        }
+      ]
+    }
+  ],
+  "notice": [
+    {
+      "id": "hi1235hi7",
+      "title": "Hellos",
+      "deception": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+      "date": "10/12/2022"
+    }
+  ],
+  "routine": [
+    {
+      "id": "hi123hello",
+      "class": "01",
+      "routine": {
+        "sunday": [
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          },
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          }
+        ],
+        "monday": [
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          },
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          }
+        ],
+        "tuesday": [
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          },
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          }
+        ],
+        "wednesday": [
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          },
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          }
+        ],
+        "thursday": [
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          },
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          }
+        ],
+        "friday": [],
+        "saturday": [
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          },
+          {
+            "id": "94589585",
+            "start_time": "10:00pm",
+            "end_time": "11:00pm",
+            "subject": "Bangla"
+          }
+        ]
+      }
+    }
+  ],
+  "exam_routine": [
+    {
+      "id": "94589585",
+      "class": "01",
+      "routine": [
+        {
+          "id": "94589585",
+          "date": "10/12/2022",
+          "start_time": "10:00pm",
+          "end_timie": "10:00pm",
+          "subject": "Bangla"
+        },
+        {
+          "id": "94589585",
+          "date": "10/12/2022",
+          "start_time": "10:00pm",
+          "end_timie": "10:00pm",
+          "subject": "English"
+        }
+      ]
+    }
+  ]
 }
